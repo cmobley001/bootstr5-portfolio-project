@@ -1,0 +1,38 @@
+.header {
+  background: #151515 url("../images/intro-bg.jpg") no-repeat center center/cover;
+  background-attachment: fixed;
+}
+
+.header::after {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.header .text-container {
+  z-index: 1;
+}
+
+.header .social {
+  bottom: 50px;
+}
+
+.header .roles {
+  font-family: "lora-regular", serif;
+}
+
+@media (max-width: 768px) {
+  .header .text-container {
+    padding: 0 20px;
+  }
+  .header .roles {
+    font-size: 1.5rem;
+  }
+  .header .social i {
+    font-size: 1.5rem;
+  }
+}
