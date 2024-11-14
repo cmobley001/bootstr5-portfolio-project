@@ -25,6 +25,10 @@
   font-family: "lora-regular", serif;
 }
 
+.about-img {
+  width: 20rem;
+}
+
 @media (max-width: 768px) {
   .header .text-container {
     padding: 0 20px;
@@ -34,5 +38,8 @@
   }
   .header .social i {
     font-size: 1.5rem;
+  }
+  .about-content {
+    flex-direction: column;
   }
 }
