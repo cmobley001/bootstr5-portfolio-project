@@ -29,6 +29,11 @@
 .about-img {
   width: 20rem;
 }
+.project:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+  opacity: 0.8;
+}
 
 //media queries
 @media (max-width: 768px) {
