@@ -1,5 +1,5 @@
 function typingEffect() {
-  const text = "Hello, I am Christoper J. Mobley";
+  const text = "Christoper J. Mobley";
   const typingElement = document.getElementById("typing-text");
   const typingDelay = 100; // delay between each letter
 
